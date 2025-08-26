@@ -2,6 +2,8 @@
 
 Weather on the Way provides comprehensive weather forecast for a selected route, helping users avoid bad weather, pick the best time to leave and stay safe while on the road.
 
+![Screenshot from Weather on the Way app](weather-on-the-way-screenshot.png)
+
 If you are a developer of an iOS road trip, motorcycle, cycling or hiking app, adding an ability to see the weather on the route with a single button tap will greatly improve the capabilities of your app, without much work on your side. In fact, if your app already supports GPX file export, adding "Open in Weather on the Way" button will not take longer than 10 minutes. 
 
 This repository provides an example of an app that opens Weather on the Way and a guide on how to implement it in your own app. 
