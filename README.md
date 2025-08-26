@@ -100,7 +100,7 @@ If the file contains Routes, the app will load their start and end points as way
 ### Tracks 
 If the file contains Tracks, the app will load them as the exact route specified by the Track, without performing routing calculations. 
 
-If the Track does not contain speed information, the user will be asked to enter the average speed they expect to travel. This might impact the accuracy of the forecast, so make sure to specify the speed information when implementing GPX export. This is done by including <time> value inside every track point <trkpt>. 
+If the Track does not contain speed information, the user will be asked to enter the average speed they expect to travel. This might impact the accuracy of the forecast, so make sure to specify the speed information when implementing GPX export. This is done by including `<time>` value inside every track point `<trkpt>`. 
 
 If the file contains both Tracks and Waypoints, the Waypoints will be considered as stop points along the track, as long as they are within 100m of any of the track points. 
 
