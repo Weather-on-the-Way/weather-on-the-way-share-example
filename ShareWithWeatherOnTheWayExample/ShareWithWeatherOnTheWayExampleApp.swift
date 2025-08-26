@@ -2,7 +2,7 @@
 //  ShareWithWeatherOnTheWayExampleApp.swift
 //  ShareWithWeatherOnTheWayExample
 //
-//  Created by Piotr Knapczyk on 26/08/2025.
+//  Created by Weather on the Way on 26/08/2025.
 //
 
 import SwiftUI

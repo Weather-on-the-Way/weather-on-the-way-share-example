@@ -8,11 +8,25 @@
 
 /* Begin PBXFileReference section */
 		249CC2F42E5DA0F600883D59 /* ShareWithWeatherOnTheWayExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareWithWeatherOnTheWayExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		249CC3052E5DAA0C00883D59 /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		249CC3032E5DA51E00883D59 /* Exceptions for "ShareWithWeatherOnTheWayExample" folder in "ShareWithWeatherOnTheWayExample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 249CC2F32E5DA0F600883D59 /* ShareWithWeatherOnTheWayExample */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		249CC2F62E5DA0F600883D59 /* ShareWithWeatherOnTheWayExample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				249CC3032E5DA51E00883D59 /* Exceptions for "ShareWithWeatherOnTheWayExample" folder in "ShareWithWeatherOnTheWayExample" target */,
+			);
 			path = ShareWithWeatherOnTheWayExample;
 			sourceTree = "<group>";
 		};
@@ -32,6 +46,7 @@
 		249CC2EB2E5DA0F600883D59 = {
 			isa = PBXGroup;
 			children = (
+				249CC3052E5DAA0C00883D59 /* README.md */,
 				249CC2F62E5DA0F600883D59 /* ShareWithWeatherOnTheWayExample */,
 				249CC2F52E5DA0F600883D59 /* Products */,
 			);
@@ -94,6 +109,8 @@
 			);
 			mainGroup = 249CC2EB2E5DA0F600883D59;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 249CC2F52E5DA0F600883D59 /* Products */;
 			projectDirPath = "";
@@ -251,11 +268,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73SG74NR2S;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareWithWeatherOnTheWayExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -268,6 +287,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = weatherontheway.ShareWithWeatherOnTheWayExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -279,11 +299,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73SG74NR2S;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareWithWeatherOnTheWayExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -296,6 +318,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = weatherontheway.ShareWithWeatherOnTheWayExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
