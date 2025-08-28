@@ -24,7 +24,7 @@ Add `Queried URL Schemes` option to your `Info.plist` as an array that contains 
 
 ### Step 2 
 
-Create GPX data, as you would do when exporting a GPX file. If your app doesn't currently export GPX files, we recommend [CoreGPX library](https://github.com/vincentneo/CoreGPX).
+Create GPX data (as Swft.Data object), same as you would do when exporting a GPX file. If your app doesn't currently export GPX files, we recommend [CoreGPX library](https://github.com/vincentneo/CoreGPX).
 
 Here is an example of creating GPX data if you are using CoreGPX:
 ```
